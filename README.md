@@ -9,3 +9,10 @@ This form uses three columns for expanded multiplication (e.g. *2 buildings x 2 
 
 ## The Problem
 When calculating totals in the squaring column the user must remember to multiply the correct row in the timesing columns by the appropriate number of cells in the sqauaring column (i.e., *2 for square metres, 3 for cubic metres*).
+
+Occassional mistakes could be made, particularly where different formulas were used for dims without multipliers for quick entry.  Formulas may be copied and pasted without accounting for the differences, or occassionally assigning to the wrong type (e.g., *a 2-dimension formula to a 3-dimension item*).
+
+## The Solution
+The process was simplified to speed entry while standardising formulas for each type.  New formulas have been created (**m**, **sm**, and **cm**) for each type of item (1, 2, and 3-dimension respectively) which will automatically calculate the total.  This ensures no omissions are made and allows for easy checking if formulas are assigned to the correct type of calculation.
+
+The actual vb code can be found [here](SMcmd.bas)
